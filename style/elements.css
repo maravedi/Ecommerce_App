@@ -1,0 +1,160 @@
+body p{
+	color: #000;
+	font-family: Georgia,serif;
+	font-size: 14px;
+	line-height: 130%;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 12px;
+	margin-left: 0;
+	text-align: center;
+}
+
+/* Navbar settings */
+#navbar {
+	position: absolute;
+	right: 0px;
+	width: 400px;
+}
+
+#navbar ul {
+	position: relative;
+	top: 0px;
+	margin: 0;
+	padding: 5px;
+	list-style-type: none;
+	text-align: left;
+	background-color: #000;
+	width: 100%;
+	text-align: center;
+}
+
+#navbar ul li {
+	position: relative;
+	display: inline;
+}
+
+#navbar ul li a {
+	text-decoration: none;
+	padding: .2em 1em;
+	color: #fff;
+	background-color: #000;
+}
+
+#navbar ul li a:hover {
+	color: #000;
+	background-color: #fff;
+}
+
+/* Category navbar settings */
+#catnavbar ul {
+	position: relative;
+	top: 0px;
+	margin: 0;
+	padding: 5px;
+	list-style-type: none;
+	width: 80%;
+	text-align: center
+}
+
+#catnavbar ul li {
+	position: relative;
+	display: block;
+}
+
+#catnavbar ul li a {
+	text-decoration: none;
+	padding: .2em 1em;
+}
+
+#catnavbar ul li a:hover {
+	color: : #000;
+	background-color: #fff;
+}
+
+#login_form {
+	text-align: center;
+	border: 1px;
+}
+
+#login_form #form_title {
+	text-align: left;
+}
+
+#login_form #form_submit {
+	text-align: right;
+}
+
+div.header {
+	width: 40%;
+	text-align: center;
+	margin: 0 auto;
+	padding-left: 30px;
+}
+
+div.insert_form {
+	width: 40%;
+	margin: 0 auto;
+	padding-left: 30px;
+	border: 1px dotted #ddd;
+	display: block;
+}
+
+div.insert_form label {
+	text-align: right;
+	display: block;
+}
+
+div.registration_form {
+	width: 40%;
+	margin: 0 auto;
+	padding-left: 30px;
+}
+
+div.registration_form label {
+	text-align: right;
+	display: block;
+}
+
+div.registration_form input[type=text] {
+	width: 100px;
+}
+
+div.registration_form input[type=password] {
+	width: 100px;
+}
+
+img.main_image {
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border: 1px solid #000;
+}
+
+img.customer_image {
+	padding: 0px;
+	width: 60%;
+	height: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border: 1px solid #000;
+}
+
+div.img_text {
+	display: none;
+	border: 1px solid #000;
+	height: 30px;
+	width: 290px;
+	margin-left: 10px;
+}
+
+a:hover + div.img_text {
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+	font-size: 12px;
+}

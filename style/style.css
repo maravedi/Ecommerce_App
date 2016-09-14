@@ -1,0 +1,93 @@
+ body {
+ 	background: url(background.jpg) fixed center;
+ 	color: #000;
+ }
+
+ hr {
+ 	background-color: #000;
+ }
+
+ a:link {
+ 	color: #ccd4d9;
+ }
+
+ a:visited {
+ 	color: #fff;
+ }
+
+a:hover {
+	color: #ffff00;
+}
+
+a:active {
+	color: #ccd4d9;
+}
+
+a.top-link {
+	color: #000;
+	display: inline;
+	text-decoration: none;
+	padding: .2em 1em;
+	color: #fff;
+	background-color: #000;
+}
+
+a.top-link:hover {
+	color: #000;
+	background-color: #fff;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: inline;
+	font-size: 10pt;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ddd;
+	margin: 1em 0;
+	padding: 0;
+}
+
+.main {
+	text-align: center;
+	border: 1px inset;
+	border-color: black;
+}
+
+.left {
+	text-align: center;
+	border: 0px inset;
+	float: left;
+}
+
+.right {
+	text-align: center;
+	border: 0px inset;
+	float: right;
+}
+
+div #login_form {
+	text-align: center;
+	background-color: #000;
+}
+
+.close_button {
+	float: right;
+	font-family: verdana;
+	margin-top: -4px;
+	font-size: 11px;
+	font-weight: bold;
+	position: relative;
+	background: darkred;
+	color: #fff;
+	padding: 3px;
+}
